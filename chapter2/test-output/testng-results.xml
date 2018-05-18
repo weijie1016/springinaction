@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="694" started-at="2018-05-18T09:40:23Z" finished-at="2018-05-18T09:40:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="694" started-at="2018-05-18T09:40:23Z" finished-at="2018-05-18T09:40:24Z">
+      <class name="chapter2.CDPlayerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="17" started-at="2018-05-18T17:40:23Z" finished-at="2018-05-18T17:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="625" started-at="2018-05-18T17:40:23Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-05-18T17:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2018-05-18T17:40:24Z" finished-at="2018-05-18T17:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chapter2.CDPlayerTest.f()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="f" duration-ms="13" started-at="2018-05-18T17:40:24Z" finished-at="2018-05-18T17:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="springTestContextAfterTestClass" is-config="true" duration-ms="5" started-at="2018-05-18T17:40:24Z" finished-at="2018-05-18T17:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:chapter2.CDPlayerTest@e874448]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-05-18T17:40:24Z" finished-at="2018-05-18T17:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void chapter2.CDPlayerTest.f()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- chapter2.CDPlayerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
